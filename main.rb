@@ -30,4 +30,4 @@ end
 # require_relative './controllers/robot_controller.rb'
 # require_relative './model/post_model.rb'
 # require_relative './controllers/post_controller.rb'
-Mongoid.load!("/Users/yuri/code/YN_back/config/mongodb.yml", :development)
+Mongoid.load!("./config/mongodb.yml", :development)
