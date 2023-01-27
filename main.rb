@@ -1,6 +1,7 @@
 require "sinatra"
 require "sinatra/namespace"
-require 'thin'
+# require 'thin'
+require "puma"
 require 'oj'
 require 'mongoid'
 
