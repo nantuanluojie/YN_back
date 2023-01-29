@@ -1,9 +1,15 @@
 require "sinatra"
 require "sinatra/namespace"
+require 'sinatra/cors'
 # require 'thin'
 require "puma"
 require 'oj'
 require 'mongoid'
+
+set :allow_origin, '*'
+set :allow_methods, 'GET,HEAD,POST,OPTIONS,DELETE,PUT'
+set :allow_headers, 'content-type,if-modified-since'
+set :expose_headers, 'location,link'
 
 # All routes are combined in controller files
 # All helpers are registed here
