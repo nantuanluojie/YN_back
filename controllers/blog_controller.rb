@@ -1,4 +1,4 @@
-namespace '/blog' do
+namespace '/api/blog' do
 helpers Apihelpers
 before {inject_params}
 
