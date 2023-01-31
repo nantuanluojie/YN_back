@@ -52,7 +52,6 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  bson
   mongoid
   oj
   puma
