@@ -13,7 +13,7 @@ post '/add' do
 end
 
 post '/delete' do
-    puts @json_params[:blog_id]
+    puts @json_params[:id]
     blog = Blog.find @json_params[:id]
     blog.delete
 end
